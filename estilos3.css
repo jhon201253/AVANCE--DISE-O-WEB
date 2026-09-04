@@ -1,0 +1,8 @@
+:root{
+    --color-primario: rgba(75, 8, 163, 0.493);
+    --tamano-texto: 16px;  
+}
+body{
+    background-color: var(--color-primario);
+    font-size: var(--color-primario);
+}

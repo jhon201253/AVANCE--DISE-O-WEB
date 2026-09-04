@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .texto::before{
+        content: "Noticias de hoy:";
+        }
+        .moneda::before{
+            content: "S/ ";
+            font-weight: bold;
+            color: brown;
+                    }
+        .primeraLinea::first-line{
+            color: red;
+        }
+        .primeraLetra::first-letter{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Verdana;
+        }
+        .seleccion::selection{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <p class="primeraLinea primeraLetra seleccion">Texto ejemplo de varias lineas,
+        texto ejemplo de varias lineas,
+        texto ejemplo de varias lineas,
+        texto ejemplo de varias lineas,
+        texto ejemplo de varias lineas,
+    </p>
+    <p class="texto">Este es un parrafo destacado qe tendra
+        codigo avanzado de CSS </p>
+        <p class="moneda">50.00</p>
+        <p class="moneda">450.00</p>
+        <p class="moneda">450.00</p>
+        <p class="moneda">650.00</p>
+        <p class="moneda">750.00</p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.cambiarColor{
+    color:rgb(8, 47, 219);
+    font-size:40px; 
+}
+.tipoLetra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+h2{
+    color:brown;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(228, 213, 213);
+}
+#parrafo{
+    color: blueviolet;    
+}
+.boton{
+    background-color: rgb(214, 181, 181);
+    color: rgb(236, 23, 23);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Verdana;
+}
+.boton:hover{
+    background-color: red;
+    color:rgb(106, 209, 201);
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+}
