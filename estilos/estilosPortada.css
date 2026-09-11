@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.encabezado h1{
+    font-size: 36px;
+     
+}
+.encabezado p{
+    font-size: 12px;
+}
+.encabezado a{
+    color: white;
+    text-decoration: none;
+}
+.encabezado a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.encabezado span{
+    color: yellow;
+}
+.contenedor{
+ 
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contenedor h2{
+    margin-top: 40px;
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor .imagenCircular{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid green;
+}
